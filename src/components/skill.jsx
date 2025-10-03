@@ -13,7 +13,7 @@ function Skill() {
               MY SKILL
             </h1>
           </div>
-        <div className=" flex flex-col md:mt-40 ">
+        <div className=" flex flex-col md:mt-20 ">
          
 
           <div className="  md:w-full md:h-[400px] h-[500px] flex flex-col  md:gap-13 md:pl-20 md:pr-20 md:mt-4 justify-center ">

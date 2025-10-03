@@ -27,7 +27,7 @@ function Contact() {
   return (
     <>
       <section id="contact">
-        <h1 className="text-center  text-3xl font-bold mb-8 text-white  md:mt-65 mt-50">
+        <h1 className="text-center  text-3xl font-bold mb-8 text-white  md:mt-65 mt-40">
           CONTACT ME
         </h1>
         <div className=" md:w-[700px] w-[400px] md:ml-80 mt-20">
