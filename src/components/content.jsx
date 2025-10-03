@@ -45,7 +45,7 @@ function Content() {
           {/* Image Section */}
           <div className="pr-25 mt-5 md:mt-0">
             <img
-              src="/mufliha.jpg"
+              src="/123.jpg"
               alt="Mufliha"
               className="md:h-[450px] md:w-[350px] h-[300px] w-[250px] rounded-full border-10 p-1 border-gray-200 ml-10"
             />
