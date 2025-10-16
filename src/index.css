@@ -7,7 +7,7 @@
 
 
 body {
-  @apply bg-gradient-to-tr  from-[#252586] to-[rgb(9,9,80)];
+  @apply bg-gradient-to-tr  from-[#0d0d50] to-[rgb(49,47,47)];
 
   
 }

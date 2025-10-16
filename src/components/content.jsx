@@ -3,25 +3,24 @@ import React from "react";
 import download from "../assets/download.png";
 import photo from "../assets/123.jpg";
 
-
 function Content() {
   return (
     <>
       <section id="content">
-        <div className="md:pl-20 md:pr-20 mt-40 pl-5 pr-5  md:flex justify-between  relative z-1 ">
-          <div>
-            <span className="font-bold md:text-[30px]  text-gray-200 text-[20px]  ">
+        <div className="flex flex-col md:flex-row  md:pl-20 md:pr-20 mt-30 pl-5 pr-5  md:flex justify-between  relative z-1 ">
+          <div className="flex flex-col ">
+            <span className=" font-bold md:text-[30px]  text-gray-200 text-[20px]  ">
               Hi,
             </span>
             <br />
-            <span className="font-bold md:text-[40px] text-gray-200  text-[30px]">
+            <span className="flex md:justify-start  font-bold md:text-[40px] text-gray-200  text-[30px]">
               I'am{" "}
-              <span className="md:text-[50px] text-[32px] text-red-700 animate-pulse">
+              <span className=" md:text-[50px] text-[32px] ml-5 text-red-700 animate-pulse">
                 {" "}
                 Mufliha Azmi
               </span>
             </span>
-            <p className="font-bold md:text-[40px] text-gray-200 text-[30px]">
+            <p className="flex md:justify-start font-bold md:text-[40px] text-gray-200 text-4xl">
               Frontend Developer
             </p>
             <p className="font-medium md:text-[15px]  text-gray-200 mt-5  text-[10px]">
@@ -39,13 +38,12 @@ function Content() {
               </a>
             </div>
           </div>
-          <div className="pr-25 mt-5 md:mt-0">
-          <img
-  src={photo}
-  alt="Mufliha"
-  className="md:h-[450px] md:w-[350px] h-[300px] w-[250px] rounded-full border-10 p-1 border-gray-200 ml-10"
-/>
-
+          <div className="pr-25 mt-5 md:mt-0 hidden">
+            <img
+              src={photo}
+              alt="Mufliha"
+              className="md:h-[350px] md:w-[280px] h-[300px] w-[250px] rounded-xl p-1  ml-10"
+            />
           </div>
         </div>
       </section>

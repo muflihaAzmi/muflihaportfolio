@@ -30,8 +30,8 @@ function Navbar() {
    </button>
 
    {!isOpen &&(
-    <button className='md:hidden  ' onClick={()=> setIsOpen(true)}>
-      <span className='text-3xl ' >&#9776;</span>
+    <button className='md:hidden' onClick={()=> setIsOpen(true)}>
+      <span className='text-3xl text-white  ' >&#9776;</span>
     </button>
     )}
     </div>
@@ -39,10 +39,10 @@ function Navbar() {
 
      {isOpen && (
     <div className='md:hidden cursor-pointer flex flex-col gap-2 mt-20  '>
-    <Link activeClass="active" to ='content' spy={true} smooth={true} offset={-100} duration={500}  className='font-semibold text-gray-200 border-b-2 border-transparent active:border-[#f5f5f9] transition-all duration-300' onClick={() => setIsOpen(false)}>Home</Link> 
-    <Link activeClass='active' to ='about' spy={true} smooth={true} offset={-150} duration={500} className='font-semibold text-gray-200 border-b-2 border-transparent active:border-[#f5f5f9] transition-all duration-300' onClick={() => setIsOpen(false)}>About</Link>
-    <Link activeClass="active" to ="skill" spy={true} smooth={true} offset={-100} duration={500} className='font-semibold text-gray-200 border-b-2 border-transparent active:border-[#f5f5f9] transition-all duration-300' onClick={() => setIsOpen(false)}>Skill</Link>
-    <Link activeClass="active" to ="portfolio" spy={true} smooth={true} offset={-100} duration={500}className='font-semibold text-gray-200 border-b-2 border-transparent active:border-[#f5f5f9] transition-all duration-300' onClick={() => setIsOpen(false)}>Portfolio</Link>
+    <Link activeClass="active" to ='content' spy={true} smooth={true} offset={-30} duration={500}  className='font-semibold text-gray-200 border-b-2 border-transparent active:border-[#f5f5f9] transition-all duration-300' onClick={() => setIsOpen(false)}>Home</Link> 
+    <Link activeClass='active' to ='about' spy={true} smooth={true} offset={-40} duration={500} className='font-semibold text-gray-200 border-b-2 border-transparent active:border-[#f5f5f9] transition-all duration-300' onClick={() => setIsOpen(false)}>About</Link>
+    <Link activeClass="active" to ="skill" spy={true} smooth={true} offset={40} duration={500} className='font-semibold text-gray-200 border-b-2 border-transparent active:border-[#f5f5f9] transition-all duration-300' onClick={() => setIsOpen(false)}>Skill</Link>
+    <Link activeClass="active" to ="portfolio" spy={true} smooth={true} offset={40} duration={500}className='font-semibold text-gray-200 border-b-2 border-transparent active:border-[#f5f5f9] transition-all duration-300' onClick={() => setIsOpen(false)}>Portfolio</Link>
    
     </div>
     

@@ -7,11 +7,11 @@ import { motion } from "framer-motion";
 function About() {
   return (
     <>
-      <section id="about" className="">
-        <p className="text-gray-200 text-[30px] font-bold items-center flex justify-center mt-40  ">
+      <section id="about" className=" ">
+        <p className="text-gray-200 text-[30px] font-bold items-center flex justify-center mt-30  ">
           ABOUT ME
         </p>
-        <div className="md:flex md:flex-row md:justify-between md:pl-20 md:pr-20 md:mt-30 mt-20 w-full gap-8 flex flex-col pl-5 ">
+        <div className="md:flex md:flex-row md:justify-between md:pl-20 md:pr-20 md:mt-30 mt-20 w-full gap-8 flex flex-col items-center">
           <motion.div
             initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -20,9 +20,9 @@ function About() {
               ease: [0.25, 0.1, 0.25, 1], // smooth cubic-bezier easing
             }}
             viewport={{ once: true, amount: 0.8 }}
-            className=" bg-white/15 backdrop-blur-xl text-gray-200 md:w-[600px] md:h-[250px] animate-in  w-[360px] flex flex-col items-center rounded-xl   "
+            className=" bg-white/15 backdrop-blur-xl text-gray-200 md:w-[600px] md:h-[250px]  animate-in  w-[360px] flex flex-col items-center rounded-xl   "
           >
-            <h2 className="font-bold text-[25px] text-red-600 mr-10 ">
+            <h2 className="font-bold text-[25px] text-red-600 mr-10 md:mt-4 ">
               WHO I AM{" "}
             </h2>
 

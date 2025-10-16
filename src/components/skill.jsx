@@ -8,17 +8,15 @@ function Skill() {
   return (
     <>
       <section id="skill">
-         <div className=" flex justify-center mt-20">
-            <h1 className="font-bold  text-[30px] text-white md:mt-20 mt-20" >
-              MY SKILL
-            </h1>
-          </div>
+        <div className=" flex justify-center mt-10">
+          <h1 className="font-bold  text-[30px] text-white md:mt-20 mt-20">
+            MY SKILL
+          </h1>
+        </div>
         <div className=" flex flex-col md:mt-20 ">
-         
-
           <div className="  md:w-full md:h-[400px] h-[500px] flex flex-col  md:gap-13 md:pl-20 md:pr-20 md:mt-4 justify-center ">
-            <div className="md:flex justify-between p-50">
-              <div className="md:flex md:flex-col md:gap-10">
+            <div className="md:grid md:grid-cols-2 gap-4 ">
+               {/* <div className="md:flex md:flex-col md:gap-10">  */}
                 <div className="flex items-center md:gap-25 gap-10 justify-center">
                   <div>
                     <img src={html} className="w-[50px] h-[50px] "></img>
@@ -68,9 +66,9 @@ function Skill() {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="md:flex md:flex-col md:gap-10 md:mt-15 mt-5">
-                <div className=" flex items-center md:gap-15 gap-4 justify-center   ">
+              {/* </div> */}
+              {/* <div className="md:flex md:flex-col md:gap-10 md:mt-15 mt-5"> */}
+                <div className=" flex items-center md:gap-15 gap-4 mt-4 justify-center   ">
                   <div>
                     <img src={javascript} className="w-[30px] h-[30px]"></img>
                     <h1 className=" text-gray-200 font-semibold">JAVASCRIPT</h1>
@@ -101,7 +99,7 @@ function Skill() {
                     </div>
                   </div>
                 </div>
-              </div>
+              {/* </div> */}
             </div>
           </div>
         </div>
